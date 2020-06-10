@@ -1,0 +1,18 @@
+@model int[]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array of Int's</title>
+</head>
+<body>
+    <h3>Here are some numbers!</h3>
+    <ul>
+        @foreach(int number in Model)
+        {
+            <li>@number</li>
+        }
+    </ul>
+</body>
+</html>
